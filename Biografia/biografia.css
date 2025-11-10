@@ -1,0 +1,143 @@
+/* ======== ESTILO GERAL ======== */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  background-color: #d60000;
+  text-align: center;
+  padding: 30px;
+}
+
+header img {
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+nav {
+  background-color: #111;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d60000;
+}
+
+section {
+  padding: 50px 10%;
+}
+
+h2 {
+  color: #d60000;
+  border-left: 4px solid #d60000;
+  padding-left: 10px;
+}
+
+h3 {
+  color: #d60000;
+}
+
+/* ======== BLOQUINHOS LADO A LADO ======== */
+.blocos {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.curiosidades, .lugares {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(214, 0, 0, 0.4);
+  flex: 1;
+  min-width: 280px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ======== GALERIA ======== */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.galeria img {
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* ======== CONTATO ======== */
+#contato {
+  text-align: center;
+}
+
+#contato a {
+  color: #d60000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contato a:hover {
+  color: white;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+  font-size: 14px;
+}
+img{
+  width: 250px;
+  height: 250px;
+
+}
+/* ======== Inter  ======== */
+.projeto {
+  display: flex;
+  align-items: center; /* Alinha os itens */
+  gap: 20px;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 15px; /* Bordas arredondadas */
+  box-shadow: 0 0 10px rgba(214, 0, 0, 0.4); /* Sombra vermelha */
+}
+
+.projeto img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.projeto p {
+  font-size: 16px;
+  line-height: 1.5;
+}

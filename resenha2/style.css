@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.8; /* Aumenta a legibilidade */
+}
+
+header {
+    background-color: #3e3e3e; /* Branco puro dá mais contraste */
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Corrigido o valor da sombra */
+}
+
+img {
+    display: block;
+    max-width: 100%; /* Responsivo em telas menores */
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 200px;
+}
+
+h3 {
+    color: #444;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+    margin-top: 30px;
+}
+
+p {
+    max-width: 800px;
+    margin: 16px auto;
+    font-size: 17px;
+    text-align: justify; /* Melhor distribuição do texto */
+    color: #444;
+}
