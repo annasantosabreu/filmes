@@ -1,34 +1,45 @@
+/* === RESET E GERAL === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #fffafc; /* tom suave de fundo */
     color: #333;
     margin: 0;
     padding: 20px;
-    line-height: 1.8; /* Aumenta a legibilidade */
+    line-height: 1.8; /* melhora legibilidade */
 }
 
+/* === TOPO === */
 header {
-    background-color: #3e3e3e; /* Branco puro dá mais contraste */
+    background-color: #ffd1dc; /* cor mais vibrante */
     padding: 20px;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-    border-bottom: 2px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Corrigido o valor da sombra */
+    border-bottom: 2px solid #ff4f7b;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* sombra suave */
+    border-radius: 5px;
 }
 
+/* === IMAGENS === */
 img {
     display: block;
-    max-width: 100%; /* Responsivo em telas menores */
+    width:25%;
+
     height: auto;
     margin: 20px auto;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    width: 200px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
+/* === TÍTULOS === */
 h3 {
-    color: #444;
+    color: #ff4f7b; /* cor vibrante para destaque */
     margin-top: 40px;
     text-align: center;
     font-size: 22px;
@@ -36,14 +47,30 @@ h3 {
 
 h4 {
     font-size: 20px;
-    color: #222;
+    color: #333;
     margin-top: 30px;
+    text-align: center;
 }
 
+/* === PARÁGRAFOS === */
 p {
     max-width: 800px;
     margin: 16px auto;
     font-size: 17px;
-    text-align: justify; /* Melhor distribuição do texto */
+    text-align: justify; /* melhora adistribuição do texto */
     color: #444;
+}
+/* Botão voltar */
+.botao-voltar {
+    display: inline-block;
+    background-color: #ff4f7b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao-voltar:hover {
+    background-color: #ff2a5a;
 }
